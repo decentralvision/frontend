@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_elements_sign_up_forms",
+  "info": {
+    "name": "Sign Up Form",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "confirmEmail": {
+      "type": "email"
+    },
+    "Password": {
+      "type": "password"
+    },
+    "confirmPassword": {
+      "type": "password"
+    },
+    "submitButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    }
+  }
+}
