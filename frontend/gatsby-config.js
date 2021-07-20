@@ -10,7 +10,7 @@ module.exports = {
   },
   siteMetadata: {
     title: `Strapi+Gatsby Corporate Starter`,
-    siteUrl: `${process.env.GATSBY_STRAPI_URL || "http://localhost:1337"}`,
+    siteUrl: `${process.env.GATSBY_STRAPI_URL || "https://strapi-backend-gatsby-snipcart.herokuapp.com:1337"}`,
     description: `A Strapi+Gatsby corporate starter`,
     author: `Strapi`,
     languages: { defaultLocale: "en", locales: ["en", "fr"] },
